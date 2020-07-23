@@ -3,7 +3,7 @@ import pandas as pd #biblioteca para ler arquivos xlsx(excel) - Pandas
 import matplotlib.pyplot as plt #biblioteca para plotar gráficos - Matplotlib
 
 #Lendo arquivo Excel
-df = pd.read_excel (r'C:\Users\leona\Downloads\Vendas2019.xlsx')
+df = pd.read_excel ('Vendas2019.xlsx')
 
 #Criando arrays para receber os dados da planilha
 meses = []
